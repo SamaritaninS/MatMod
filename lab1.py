@@ -176,7 +176,7 @@ print('Theoretic correlation = ', theoretic_correlation)
 interval_expected_x = intervals_of_expected_value(discrete_XY, 'X', xy_count)
 interval_expected_y = intervals_of_expected_value(discrete_XY, 'Y', xy_count)
 
-print('Interval for М[X] = ', interval_expected_x)
+print('Interval for М[X]  = ', interval_expected_x)
 print('Interval for М[Y] = ', interval_expected_y)
 
 pirson_test(the)
